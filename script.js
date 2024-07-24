@@ -55,6 +55,7 @@ async function getData(btnVal) {
             div.appendChild(img);
             let a = document.createElement("a");
             a.href = element.link;
+            a.target = "_blank";
             a.textContent = "visit movie"
             div.appendChild(a)
 
